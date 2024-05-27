@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'NPSfontBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/NPSfontBold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#background{
+    display: flex;
+}
+nav{
+    height: 100%;
+    width: 20%;
+    padding-top: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: grid;
+    margin-right: 60px;
+    position: sticky;
+    top: 0;
+}
+nav a:link{
+    color: rgb(62, 58, 58);
+}
+nav a:visited{
+    color: rgb(62, 58, 58);
+}
+nav a:hover{
+    color: #5e6fb1;
+}
+nav a{
+    text-decoration: none;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+section{
+    font-family: 'NPSfontBold';
+    padding-right: 100px;
+    line-height: 30px;
+    font-size: 20px;
+}
+.tech_item{
+    margin-bottom: 80px;
+}
+.tech_item img{
+    width: 25%;
+    height: 25%;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            width: fit-content;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>웹 프로그래밍 과제</h1><br>
+    <h2>202202198 김유진</h2>
+    <hr>
+    <form id="loginForm">
+        <label for="name">
+            이름: 
+            <input type="text" id="name" placeholder="이름을 입력해주세요"><br>
+        </label>
+        <button type="submit">로그인</button>
+    </form>
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', function(event) {
+            event.preventDefault(); 
+            const name = document.getElementById('name').value;
+            if(name=='김유진'||name=='김용강'){
+                    window.open("main.html");
+            }
+        });
+    </script>
+</body>
+</html>

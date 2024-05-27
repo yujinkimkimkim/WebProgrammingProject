@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./woowahan.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>우아한 형제들</title>
+</head>
+<body>
+    <div id="woowahan_logo">
+    </div>
+    <hr>
+    <p style="width: fit-content; margin: auto; text-align: center;">
+        배달의 민족을 운영하는 대한민국의 지주회사<br>
+        2015년 8월 <span id="point">'프리미엄 외식 배달 서비스'</span>로 시작한 자체 배달 서비스를 운영
+    </p>
+    
+    <div id="container">
+        <canvas id="borderCanvas"></canvas>
+        <ul>
+            <li><a href="https://www.woowahan.com/">기업 소개 사이트 바로가기</a></li>
+            <li><a href="https://youtu.be/EB7_HS3ooOk">기업 소개 영상 바로가기</a></li>
+        </ul>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/EB7_HS3ooOk" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <script>
+        function drawBorder() {
+            const container = document.getElementById('container');
+            const ul = container.querySelector('ul');
+            const canvas = document.getElementById('borderCanvas');
+            const ctx = canvas.getContext('2d');
+
+            canvas.width = ul.offsetWidth;
+            canvas.height = ul.offsetHeight;
+
+            ctx.strokeStyle = 'black';
+            ctx.lineWidth = 1;
+            ctx.strokeRect(0, 0, ul.offsetWidth, ul.offsetHeight);
+        }
+
+        window.onload = drawBorder;
+    </script>
+</body>
+</html>

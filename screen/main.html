@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>김유진</title>
+    <link rel="stylesheet" type="text/css" href="./color.css"/>
+</head>
+<body>
+    <nav class="nav" id="tab-button-nav">
+        <p id="date_now">.</p>
+        <div class="nav_btn">
+            <button class="tab-button" data-tab-section="tab-section-1"
+            onmouseover="nav_btn_onmouseover()" onmouseout="nav_btn_onmouseout()">나를 소개해요</button>
+            <button class="tab-button" data-tab-section="tab-section-2"
+            onmouseover="nav_btn_onmouseover()" onmouseout="nav_btn_onmouseout()">관심 기술 및 관련 기업</button>
+            <button class="tab-button" data-tab-section="tab-section-3"
+            onmouseover="nav_btn_onmouseover()" onmouseout="nav_btn_onmouseout()">미래 계획</button>
+        </div>
+        <div id="nav_a">
+            <a href="https://velog.io/@yujinkimkimkim">velog</a>
+            <a href="https://github.com/yujinkimkim">github</a>
+            <a href="https://yujinkimkim.tistory.com/">tistory</a>
+        </div>
+    </nav>
+    <section id="tab-section-1" class="tab-section">
+        <div class="section_background"></div>
+        <div class="introduction">
+            <div id="introduction_list">
+                <a href="#goal_txt">✅주제 선정 동기와 <br>이루고 싶은 목표</a>
+                <a href="#growth_txt">✅성장 과정</a>
+                <a href="#issue_txt">✅최근 사회 이슈</a>
+                <a href="#sol_txt">✅어려웠던 부분과 해결 방안</a>
+                <a href="#ability_txt">✅나의 역량</a>
+            </div>
+            <div>
+                <div class="goal">
+                    <div class="introduction_img" id="goal_img">
+                        <img src="https://i.pinimg.com/474x/bd/82/5b/bd825bc5f81ce091d20069f853060fb6.jpg">
+                    </div>
+                    <div class="introduction_txt" id="goal_txt" style="padding-left: 90px;">
+                        <p>
+                            프론트엔드와 백엔드를 둘다 할 줄 아는 풀스택 개발자가 되고 싶습니다. 할 줄 안다라 함은 단순히 다룰 줄 안다는 것이 아니라 
+                            완전한 이해를 통한 제작과 제작 이후 개선이 가능한 능력을 가지고 있음으로 정의합니다. 둘 중 하나에만 집중하지 않으려는 이유는 
+                            현재 나이에 한 개만 정해서 집중하는 것보다 풀스택 개발자로 일을 하다가 나중에 진짜 적성에 맞는 것을 정해 좁혀나가고 싶다는 이유와 
+                            현 개발직종 대부분의 상황이 대기업이 아닌 이상 모든 개발자들이 프론트엔드와 백엔드를 둘다 담당하게 한다는 조언을 들었기 때문입니다. 
+                            저는 현실에 안주하지 않고 계속해서 공부해서 어제의 나보다 더 나은 내가 되는, 계속해서 발전을 도모하는 개발자가 되고 싶습니다. 
+                            최종 목표는 우아한 형제들에 취업하는 것입니다. 우아한 형제들은 개발자들이 가장 가고 싶어하는 기업 '네카라쿠배' 중 배달의 민족 기업을
+                            운영하고 있는데, 이 기업은 여러 배달 기업들 중에서도 효율적인 배차 알고리즘 고도화 작업에 힘쓰며 외에도 로봇 배달 연구 등
+                            자신들의 분야에 대해 끊임없이 노력하는 기업으로 취업 후에 주위에 영향받아 같이 노력할 수 있는 환경이 될 수 있을 거라 생각했기에 
+                            이 기업에 취업하고자 생각했습니다. 기업 소개 사이트에 적힌 "평범한 사람들이 모여 비범한 성과를 만들어 내도록"라는 문구가 특별한 누군가만이
+                            아니라 평범한 누구나 비범한 성과를 만들어낼 수 있도록 해보자는 의지가 느껴져 넓은 뜻을 배울 수 있겠다고 생각했습니다.
+                        </p>
+                    </div>
+                </div>
+                <div class="goal">
+                    <div class="introduction_txt" id="growth_txt" style="padding-right: 60px;">
+                        <p>
+                            대학교에 입학하고서 프로그래밍에 대해 열정을 갖고 있는 분들과 함께 공부하며 배워가고자 프로그래밍 동아리에 들어갔습니다. 1학년 1학기에 
+                            C언어와 자바에 대해 동아리 자체 교육을 통해 배우고, 선배들과 동기들과 함께 웹 스터디를 열어 HTML,CSS,JS를 공부하여 각자 클론코딩 사이트를
+                            하나씩 만드는 시간을 가졌습니다. 1학년 2학기에는 동기들과 함께 웹 스터디를 열어 JS공부에 좀더 집중하여 플래너(할 일을 기록하고 체크박스를 누르면
+                            해당 할 일이 사라지는 플래너로 데이터는 로컬에 저장하여 사용)를 만들었습니다. 1학년때부터 현 3학년까지 매번 방학동안에는 매일 코딩테스트 문제를
+                            하나씩 풀고 개인 블로그(티스토리, 벨로그)에 기록하여 문제를 풀어나가는 과정을 기록하였습니다.
+                            2학년 2학기때부터는 백엔드 공부를 해보고자 SpringBoot에 대해 공부한 후에 학과 전공에서 진행한 팀프로젝트에서 혼자 백엔드를 담당하여 
+                            서버 제작을 했습니다. 2학년 겨울방학부터는 프론트 공부도 해보고자 리액트와 플러터를 공부했고, 플러터에 좀더 흥미를 느껴 여러 예제를 따라치며
+                            공부를 했습니다. 현 3학년 1학기에는 지금까지 공부한 플러터 공부를 통해 공모전과 연구에서 결과물로 사용될 프론트엔드와 창업동아리 등 3개의 
+                            활동에서 플러터로 프론트엔드 담당을 하여 실전 경험을 해보고자 진행 중에 있습니다. 제일 영향을 끼친 사람은 친오빠입니다. 제가 이렇게 과에 
+                            적응하고 열정을 가진 채로 개인공부 및 프로젝트를 진행하기까지 친오빠의 응원과 조언이 있었기에 가능했습니다. 제가 방향을 헤맬때 잘하고 있다고 
+                            응원해주고 앞으로 어떤 식으로 하면 좋을지 끊임없이 옆에서 지도해준 오빠의 영향이 제일 큰 것 같습니다.
+                        </p>
+                    </div>
+                    <div class="introduction_img" id="growth_img">
+                        <img src="https://i.pinimg.com/474x/af/d0/db/afd0dbb002dd65e4a166203cf12d956a.jpg">
+                    </div>
+                </div>
+                <div class="goal">
+                    <div class="introduction_img" id="issue_img">
+                        <img src="https://i.pinimg.com/474x/62/f1/2f/62f12fbe6f8b60468d546b8507e65967.jpg">
+                    </div>
+                    <div class="introduction_txt" id="issue_txt" style="padding-left: 90px;">
+                        <p>
+                            최근 개발자들이 가장 가고싶어하는 기업인 네이버와 라인에 문제가 생겼습니다. 네이버가 만든 라인은 전세계에서 사용하고 있는 SNS로 
+                            네이버가 13년 동안 키운 플랫폼입니다. 이러한 라인이 일본에 넘어갈 수 있다는 문제입니다. 이에 당사 일부 직원들은 클라우드 등 라인 관련
+                            기술 지원 부문이 동력을 잃을 것이라 하기도 했습니다. 또한 다수 직원은 네이버가 라인야후를 소프트뱅크에 넘겨주면 라인플러스 등 한국법인 직원 
+                            2,500명을 포함해 라인 관련 직원들이 고용 불안에 시달릴 것을 우려하고 있습니다. 제 입장은 한국에서는 카카오톡을 사용한다지만 라인은 전세계에서 
+                            사용중인 앞으로 전망이 밝은 SNS인데 이걸 일본에 넘겨준다는 것은 국가적 큰 손실이라 생각합니다. 라인은 단순 메신저 역할만 하는 것이 아니라 
+                            페이, 웹툰, 쇼핑 기능을 같이 연동할 수 있는데 일본에는 해당 기술을 할 능력이 없는 상황에서 네이버가 13년 동안 공들여 만든 기술을 
+                            넘긴다는 것은 크나큰 문제라고 생각합니다.
+                        </p>
+                    </div>
+                </div>
+                <div class="goal">
+                    <div class="introduction_txt" id="sol_txt" style="padding-right: 60px;">
+                        <p>
+                            2학년 2학기에 진행한 팀 프로젝트가 제가 진행한 프로젝트 중 유일하게 설계부터 완전한 결과물까지 참여한 프로젝트라 이 프로젝트에서 경험한 내용을 
+                            적겠습니다. 해당 프로젝트 당시 데이터베이스에 대해 배우기 전이었던 상태인지라 백엔드를 혼자 담당해서 제작하는 과정에서 스키마 설계 및 
+                            매핑 카디널리티를 혼자 구상하느라 여러모로 어려움이 많았습니다. ERD를 2학년 지식으로 어떻게든 만들어서 코드를 작성했지만 n:m의 관계에서 
+                            오류를 접하게 됐습니다. 데이터베이스에 대한 지식이 많이 없던 상태였기에 어떻게 수정해야할지 갈피를 못 잡은 상태로 코드만 수정하다가 
+                            구글링 과정과 선배의 도움으로 해결한 경험이 있습니다. n:m을 n:1과 1:m으로 만들어주면 되는 문제였습니다. 해당 프로젝트 같은 경우는 
+                            커뮤니티 비슷한 플랫폼 제작이기에 그렇게 복잡한 서버가 아니었습니다. 그래서 엄청난 어려움을 겪지는 못 했지만 데이터베이스에 대한 지식이 전무한 
+                            상태에서 제작했다는 데에 아쉬움이 있습니다. 이 프로젝트에서 제작한 서버를 좀더 효율적일 수 있도록 개선하고, 다음 프로젝트에서는 
+                            이번 학기 데이터베이스 전공 수업에서 배운 지식을 통해 좀더 정확한 스키마 설계를 해보고자 합니다.
+                        </p>
+                    </div>
+                    <div class="introduction_img" id="sol_img">
+                        <img src="https://i.pinimg.com/474x/72/d6/90/72d69016242ad8e3e875308478af89be.jpg">
+                    </div>
+                </div>
+                <div class="goal">
+                    <div class="introduction_img" id="ability_img">
+                        <img src="https://i.pinimg.com/474x/cd/8d/f8/cd8df8ef17abcfc306a3f35795a30f20.jpg">
+                    </div>
+                    <div class="introduction_txt" id="ability_txt" style="padding-left: 90px;">
+                        <p>
+                            학과 전공 수업 중에 진행한 팀 프로젝트에서 백엔드 담담을 맡아 SpringBoot와 MariaDB를 활용한 서버를 만들었습니다. 
+                            2023 교내 창업동아리에 합격하여 팀원들과 함께 안드로이드 스튜디오로 프론트엔드 제작을 했습니다. 앞선 두 활동을 통해 결과물을 만들어가는
+                            과정에서 협업 능력을 키울 수 있었습니다. 협업 툴로는 깃허브를 사용했습니다.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="tab-section-2" class="tab-section" hidden>
+        <div class="section_background"></div>
+        <div class="tech_txt">
+            <p>저의 관심 기술을 소개합니다</p>
+        </div>
+        <div>
+            <div id="technology_wrap">
+                <div class="technology">
+                    <div style="display: flex;">
+                        <div class="technology_item">
+                            <div id="springboot_img">
+                                <img src="../asset/스프링부트.png" style="height: 400px; width: 400px; border-radius: 20px;">
+                            </div>
+                            <div class="technology_item_txt" id="springboot_txt">
+                                <p>
+                                    스프링으로 애플리케이션을 만들 때에 필요한 설정을 간편하게 처리해주는 별도의 프레임워크
+                                </p>
+                            </div>
+                        </div>
+                        <div class="technology_item">
+                            <div id="flutter_img">
+                                <img src="../asset/플러터.png" style="height: 400px; width: 400px; border-radius: 20px;">
+                            </div>
+                            <div class="technology_item_txt" id="flutter_txt">
+                                <p>
+                                    구글에서 개발한 크로스 플랫폼 앱 개발 프레임워크
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <button id="technology_button" onclick="tech_new_window();">자세히<br>보기</button>
+                    <div style="display: flex;">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="tech_txt">
+                <p>관련 기업을 소개합니다</p>
+            </div>
+            <div class="company">
+                <div id="woowahan">
+                    <img src="../asset/우아한형제들.jpg" style="width: 400px; height:150px; margin-left: 400px; margin-top: 20px;">
+                    <p>
+                        "우아한형제들은 대한민국을 넘어 세계를 향해 나아갑니다.<br>
+                        베트남 진출을 시작으로 우아한형제들은 Delivery Hero와 <br>함께
+                        <우아DH아시아>를 설립하고 아시아 사업을 총괄하고 <br>있습니다."
+                    </p>
+                    <button onclick="woowahan_new_window();">자세한 설명</button>
+                </div>
+                <div style="height: 100px;">
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="tab-section-3" class="tab-section" hidden>
+        <div class="section_background"></div>
+        <div class="tech_txt">
+            <p>저의 공부 계획을 소개합니다</p>
+        </div>
+        <div class="plan">
+            <div>
+                <img>   
+            </div>
+            <div class="plan_bar">
+                
+            </div>
+            <div class="plan_items">
+                <div class="plan_item">
+                    <p>3학년 1학기 중에는 Git과 RDB, SQL에 대해 공부하고, dart 언어와 플러터에서 제공하는 다양한 위젯들, 상태관리와
+                        생명주기에 대해 공부합니다.
+                    </p>
+                </div>
+                <div class="plan_item">
+                    <p>
+                        3학년 여름방학 중에는 SpringBoot와 JPA, Spring Security에 대해 공부합니다. 플러터 심화로 들어가서
+                        데이터베이스 적용, 서버 연동, 파이어베이스 연동, 배포 등을 공부하며, 프로젝트를 통해 응용하여 복습 및 부족한
+                        부분을 학습하는 시간을 갖습니다. 토익을 위한 토익 영단어 암기와 RC, LC 공부를 매주 아침마다 최소 1시간씩 하여 
+                        토익 점수가 높아질 수 있도록 합니다.
+                    </p>
+                </div>
+                <div class="plan_item">
+                    <p>
+                        3학년 2학기 중에는 소규모 개인 프로젝트를 하여 기획부터 배포까지 가능하도록 앱 개발을 합니다.
+                        프로젝트를 진행하며 성능 향상을 위한 부분을 공부하며 실전 경험을 쌓을 수 있도록 합니다. 
+                        선배들과 동기들과 함께 스터디를 열어 다같이 의지를 다지고 실력 향상을 도모할 수 있도록 합니다.
+                    </p>
+                </div>
+                <div class="plan_item">
+                    <p>
+                        3학년 겨울방학 중에는 코딩 테스트 준비 및 다양한 사람들과 팀 프로젝트를 하며 협업 능력을 기르고 부족한 부분을 채웁니다.
+                        정보처리기사 공부를 합니다.
+                    </p>
+                </div>
+                <div class="plan_item">
+                    <p>
+                        4학년 1학기 중에는 정보처리기사 공부를 합니다. 면접 준비를 위한 CS 관련 공부와 성능 향상에 대한 부분을 공부합니다.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="tech_txt">
+            <p>저의 취업 준비 과정을 소개합니다</p>
+        </div>
+        <div class="plan">
+            <div>
+                <img>   
+            </div>
+    <div class="plan_bar" style="height: 1100px;">
+                
+            </div>
+            <div class="plan_items">
+                <div class="plan_item">
+                    <p>
+                        4학년 1학기 중에 정보처리기사에 합격합니다. 토익 공부를 꾸준히 해서 최소 700점은 넘길 수 있도록 합니다. 
+                        개인 블로그와 깃허브에 기록해온 활동들에서 사용한 기술들을 정리하고 공부합니다. 프로젝트를 했다면 왜 이 프로젝트를 했는지, 
+                        해당 프로젝트를 만듦으로써 어떤 문제가 해결될 수 있었는지에 대해 상세하게 정리합니다.
+                    </p>
+                </div>
+                <div class="plan_item">
+                    <p>
+                        매번 프로젝트를 할 때마다 개인 블로그 및 깃허브에 올려 추후 포트폴리오에 쓸 수 있도록 합니다. 개인 블로그에는 주로 
+                        프로젝트 과정 중에 생긴 어려웠던 점, 문제점들을 어떻게 개선했는지에 대해 기록합니다. 해당 프로젝트에 기여한 정도와 어떤 경험을 얻을 수 있었는지
+                        상세하게 기록합니다. 
+                    </p>
+                </div>
+                <div class="plan_item">
+                    <p>
+                        연합 동아리 참가, 공모전 참여 및 프로젝트에 다양하게 참가하여 모르는 사람들과의 협업 경험을 쌓아 
+                        개발자로서 제일 중요한 협업 능력을 기를 수 있도록 합니다. 현 3학년 1학기로서는 공모전과 대학원생과 진행하는 AI연구에서 결과물을 보여줄 
+                        프론트엔드와 2024 교내 창업동아리에 선정되어 현재 피그마를 통한 UI설계를 끝마친 플랫폼 등 3개의 활동에서 플러터로 앱 제작 준비 과정에 있습니다. 
+                        이 3개 활동을 진행하며 팀원들과의 협력, 소통 능력을 키우고자 하고 있습니다. 
+                    </p>
+                </div>
+                <div class="plan_item">
+                    <p>
+                        우아한 형제들과 같은 대기업에서는 백엔드 개발자를 구할 때 보통 큰 서버를 경험해본 3년차 정도의 개발자를 구합니다. 학부생으로서는 큰 서버를 
+                        경험할 기회가 없기에 스타트업에 취업하여 경험해보고자 합니다. 현 스타트업 CEO에게 조언을 얻어 대부분의 스타트업들은 플러터를 사용하고 있으며 
+                        프론트엔드와 백엔드 둘다 할 줄 아는 개발자를 원한다는 말을 들었기에, 플러터와 SpringBoot를 공부하여 스타트업에 취업 후 대용량 서버에서 
+                        충분한 트래픽 경험을 한 것 같다 싶을 때 우아한 형제들 기업에 취업 시도를 해보고자 합니다.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const $dateNow = document.getElementById('date_now');
+
+        function updateCurrentTime() {
+            const now = new Date();
+            const formattedTime = now.getHours() + ':' + now.getMinutes() + ':' + now.getSeconds();
+            $dateNow.innerText = formattedTime;
+        }
+
+        updateCurrentTime();
+        setInterval(updateCurrentTime, 1000);
+
+        const $goal_img = document.getElementById('goal_img');
+        const $goal_txt = document.getElementById('goal_txt');
+
+        function isInViewport(element) {
+            const rect = element.getBoundingClientRect();
+            return (
+                rect.top >= 0 &&
+                rect.left >= 0 &&
+                rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+                rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+            );
+        }
+
+        function transitionGoalTxt() {
+            if (isInViewport($goal_img)) {
+                $goal_txt.style.visibility = "visible";
+                $goal_txt.style.opacity = "1";
+                $goal_txt.style.transform = "translateX(-80px)";
+            } else {
+                $goal_txt.style.visibility = "hidden";
+                $goal_txt.style.opacity = "0";
+                $goal_txt.style.transform = "translateX(-150px)";
+            }
+        }
+
+        const $growth_img = document.getElementById('growth_img');
+        const $growth_txt = document.getElementById('growth_txt');
+
+        function transitionGrowthTxt() {
+            if (isInViewport($growth_img)) {
+                $growth_txt.style.visibility = "visible";
+                $growth_txt.style.opacity = "1";
+                $growth_txt.style.transform = "translateX(60px)";
+            } else {
+                $growth_txt.style.visibility = "hidden";
+                $growth_txt.style.opacity = "0";
+                $growth_txt.style.transform = "translateX(110px)";
+            }
+        }
+
+        const $issue_img = document.getElementById('issue_img');
+        const $issue_txt = document.getElementById('issue_txt');
+
+        function transitionIssueTxt() {
+            if (isInViewport($issue_img)) {
+                $issue_txt.style.visibility = "visible";
+                $issue_txt.style.opacity = "1";
+                $issue_txt.style.transform = "translateX(-80px)";
+            } else {
+                $issue_txt.style.visibility = "hidden";
+                $issue_txt.style.opacity = "0";
+                $issue_txt.style.transform = "translateX(-150px)";
+            }
+        }
+
+        const $sol_img = document.getElementById('sol_img');
+        const $sol_txt = document.getElementById('sol_txt');
+
+        function transitionSolTxt() {
+            if (isInViewport($sol_img)) {
+                $sol_txt.style.visibility = "visible";
+                $sol_txt.style.opacity = "1";
+                $sol_txt.style.transform = "translateX(60px)";
+            } else {
+                $sol_txt.style.visibility = "hidden";
+                $sol_txt.style.opacity = "0";
+                $sol_txt.style.transform = "translateX(110px)";
+            }
+        }
+
+        const $ability_img = document.getElementById('ability_img');
+        const $ability_txt = document.getElementById('ability_txt');
+
+        function transitionAbilityTxt() {
+            if (isInViewport($ability_img)) {
+                $ability_txt.style.visibility = "visible";
+                $ability_txt.style.opacity = "1";
+                $ability_txt.style.transform = "translateX(-80px)";
+            } else {
+                $ability_txt.style.visibility = "hidden";
+                $ability_txt.style.opacity = "0";
+                $ability_txt.style.transform = "translateX(-150px)";
+            }
+        }
+
+        const $woowahan = document.getElementById('woowahan');
+
+        function visibleWoowahan() {
+            if (isInViewport($woowahan)) {
+                $woowahan.style.visibility = "visible";
+                $woowahan.style.transform = "translateY(0px)";
+                $woowahan.style.opacity = "1";
+            } else {
+                $woowahan.style.visibility = "hidden";
+                $woowahan.style.transform = "translateY(60px)";
+                $woowahan.style.opacity = "0";
+            }
+        }
+
+        // 페이지 로드시 한 번 실행하여 초기 상태 설정
+        transitionGoalTxt();
+        transitionGrowthTxt();
+        transitionIssueTxt();
+        transitionSolTxt();
+        transitionAbilityTxt();
+        visibleWoowahan();
+
+        // 스크롤 이벤트 감지
+        window.addEventListener('scroll', function() {
+            transitionGoalTxt();
+            transitionGrowthTxt();
+            transitionIssueTxt();
+            transitionSolTxt();
+            transitionAbilityTxt();
+            visibleWoowahan();
+        });
+
+        function tech_new_window() {
+            window.open(
+            "tech.html"
+            );
+        }
+        function woowahan_new_window() {
+            window.open(
+            "woowahan.html"
+            );
+        }
+       function nav_btn_onmouseover() {
+        document.querySelectorAll('.tab-button').forEach(button => {
+            button.style.color = "white";
+        });
+        event.target.style.color = "#5ec8b2";
+        }
+
+        function nav_btn_onmouseout() {
+            document.querySelectorAll('.tab-button').forEach(button => {
+                button.style.color = "white";
+            });
+        }
+
+        const $nav = document.getElementById('tab-button-nav');
+        const $sections = document.querySelectorAll('.tab-section');
+
+        $nav.addEventListener('click', (e) => {
+            if (!e.target.classList.contains('tab-button')) {
+                return;
+            }
+
+            const focusedTabId = e.target.dataset.tabSection;
+
+            $sections.forEach(($section) => {
+                if ($section.id === focusedTabId) {
+                    $section.removeAttribute('hidden');
+                } else {
+                    $section.setAttribute('hidden', true);
+                }
+            });
+        });
+
+    </script>
+</body>
+</html>

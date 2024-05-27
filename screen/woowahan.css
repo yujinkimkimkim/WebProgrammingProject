@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'BMJUA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}#woowahan_logo{
+    background-image: url("../asset/우아한형제들.jpg");
+    width: 600px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    margin-bottom: 40px;
+}
+p{
+    font-family: 'BMJUA';
+    font-size: 30px;
+}
+#point{
+    color: #5ec8b2;
+    text-decoration: underline;
+}
+a:link, a:visited{
+    color: rgb(62, 58, 58);
+}
+a:hover{
+    color: #5ec8b2;
+}
+a{
+    font-family: 'BMJUA';
+    text-decoration: none;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+#container {
+    position: relative;
+    width: fit-content;
+    margin: auto;
+}
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+ul {
+    position: relative;
+    z-index: 1;
+    margin-top: 30px;
+}
