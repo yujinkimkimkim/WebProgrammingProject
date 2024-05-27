@@ -18,7 +18,7 @@
     <form id="loginForm">
         <label for="name">
             이름: 
-            <input type="text" id="name" placeholder="이름을 입력해주세요"><br>
+            <input type="text" id="name" placeholder="제 이름을 입력해주세요"><br>
         </label>
         <button type="submit">로그인</button>
     </form>
@@ -26,7 +26,7 @@
         document.getElementById('loginForm').addEventListener('submit', function(event) {
             event.preventDefault(); 
             const name = document.getElementById('name').value;
-            if(name=='김유진'||name=='김용강'){
+            if(name=='김유진'){
                     window.open("main.html");
             }
         });
